@@ -6,7 +6,7 @@ import dot from './../../assets/Dot.png';
 
 export default function Herosection() {
   return (
-    <div className='max-w-screen-xl px-4 py-8 my-20 lg:px-8 mx-auto'>
+    <div className=''>
       <div className='grid grid-cols-1 md:grid-cols-5 relative gap-10 md:gap-5 '>
         <div className='col-span-3 order-last md:order-first'>
           <h1 className='font-mono text-3xl md:text-5xl text-center md:text-left '>

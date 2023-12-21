@@ -4,14 +4,14 @@ import chart from './../../assets/chart-square 2.png';
 import Image from 'next/image';
 export default function PromoSection() {
   return (
-    <div className='bg-[#D9E0EC33] my-20 py-20'>
-      <div className='grid grid-cols-3 justify-between gap-16'>
+    <div className='bg-[#D9E0EC33] my-20 py-10 md:py-20'>
+      <div className='grid grid-cols-1 md:grid-cols-3 justify-between gap-8 md:gap-16'>
         <div className='text-center '>
-          <h3 className='font-mono text-2xl font-semibold mx-auto text-center'>
+          <h3 className='font-mono text-xl md:text-2xl font-semibold mx-auto text-center'>
             The amazing NFT art of the world here
           </h3>
         </div>
-        <div className='flex justify-between mx-auto'>
+        <div className='flex justify-between mx-auto p-2'>
           <div>
             <Image
               src={card}
@@ -22,14 +22,14 @@ export default function PromoSection() {
             />
           </div>
           <div>
-            <p className='font-mono text-xl font-semibold'>Fast Transaction</p>
+            <p className='font-mono text-base md:text-xl font-semibold'>Fast Transaction</p>
             <p className='font-sans text-prime text-sm mt-2 '>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               etiam viverra tellus imperdiet.
             </p>
           </div>
         </div>
-        <div className='flex'>
+        <div className='flex justify-between mx-auto p-2'>
           <div>
             <Image
               src={chart}
@@ -40,7 +40,7 @@ export default function PromoSection() {
             />
           </div>
           <div>
-            <p className='font-mono text-xl font-semibold'>
+            <p className='font-mono text-base md:text-xl font-semibold'>
               Growth Transaction
             </p>
             <p className='font-sans text-prime text-sm mt-2'>
