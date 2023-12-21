@@ -3,6 +3,7 @@ import Feature from './_components/feature';
 import Herosection from './_components/hero';
 import PromoSection from './_components/promo';
 import Section from './_components/section';
+import Footers from './_components/footers';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Collection />
       <Feature />
       <Section />
+      <Footers />
     </main>
   );
 }
