@@ -4,6 +4,7 @@ import Herosection from './_components/hero';
 import PromoSection from './_components/promo';
 import Section from './_components/section';
 import Footers from './_components/footers';
+import NFTCards from './_components/nftCards';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Collection />
       <Feature />
       <Section />
+      <NFTCards />
       <Footers />
     </main>
   );
