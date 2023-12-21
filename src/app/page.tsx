@@ -8,14 +8,14 @@ import NFTCards from './_components/nftCards';
 
 export default function Home() {
   return (
-    <main className='max-w-screen-xl px-4 py-8 my-20  sm:py-12 sm:px-6 lg:px-8 mx-auto'>
+    <main className=''>
       <Herosection />
-      <PromoSection />
+      {/* <PromoSection />
       <Collection />
       <Feature />
       <Section />
       <NFTCards />
-      <Footers />
+      <Footers /> */}
     </main>
   );
 }
