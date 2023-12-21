@@ -14,7 +14,7 @@ import pro5 from './../../assets/collection/unsplash_fT49QnFucQ8.png';
 export default function Collection() {
   return (
     <div>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 md:gap-10'>
         <div>
           <Image src={img1} alt='collection' />
           <div className='flex justify-between items-center mt-4'>
@@ -130,7 +130,7 @@ export default function Collection() {
                   <FaEthereum className='inline-block' /> 19,769.39
                 </p>
               </div>
-              <p className='font-sans font-bold text-lg text-[#14C8B0]'>
+              <p className='font-sans font-bold text-base md:text-lg text-[#14C8B0]'>
                 +26.52%
               </p>
             </div>
@@ -143,7 +143,7 @@ export default function Collection() {
                   <FaEthereum className='inline-block' /> 2,769.39
                 </p>
               </div>
-              <p className='font-sans font-bold text-lg text-[#FF002E]'>
+              <p className='font-sans font-bold text-base md:text-lg text-[#FF002E]'>
                 +10.52%
               </p>
             </div>
@@ -156,7 +156,7 @@ export default function Collection() {
                   <FaEthereum className='inline-block' /> 9,232.39
                 </p>
               </div>
-              <p className='font-sans font-bold text-lg text-[#14C8B0]'>
+              <p className='font-sans font-bold text-base md:text-lg text-[#14C8B0]'>
                 +2.52%
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function Collection() {
                   <FaEthereum className='inline-block' /> 3,769.39
                 </p>
               </div>
-              <p className='font-sans font-bold text-lg text-[#14C8B0]'>
+              <p className='font-sans font-bold text-base md:text-lg text-[#14C8B0]'>
                 +1.52%
               </p>
             </div>
@@ -182,7 +182,7 @@ export default function Collection() {
                   <FaEthereum className='inline-block' /> 10,769.39
                 </p>
               </div>
-              <p className='font-sans font-bold text-lg text-[#FF002E]'>
+              <p className='font-sans font-bold text-base md:text-lg text-[#FF002E]'>
                 +2.52%
               </p>
             </div>

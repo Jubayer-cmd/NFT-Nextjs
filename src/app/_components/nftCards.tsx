@@ -70,8 +70,8 @@ const NFTCards: React.FC = () => {
         key={category}
         className={`${
           activeButton === category
-            ? 'bg-[#3D00B7] mx-2'
-            : 'text-black font-sans mx-2 bg-[#b6bac033]'
+            ? 'bg-[#3D00B7] mx-2 text-white'
+            : 'text-black font-sans mx-2 bg-[#b6bac033] my-1 text-sm md:text-base'
         } py-2 px-3 rounded-full`}
         onClick={() => handleButtonClick(category)}
       >
@@ -81,12 +81,12 @@ const NFTCards: React.FC = () => {
   };
 
   return (
-    <div className='bg-[#D9E0EC33] py-10 p-3 mt-20'>
-      <h1 className=' font-mono text-3xl font-semibold mb-10'>
+    <div className='bg-[#D9E0EC33] py-5 md:py-20 p-0 md:p-3 mt-20'>
+      <h1 className=' font-mono text-3xl font-semibold mb-10 text-center md:text-left'>
         Discover more NFTs{' '}
       </h1>
-      <div className='block md:flex items-center justify-between'>
-        <div className='flex-wrap gap-5 items-center text-white text-center font-inter bg-white bg-opacity-10 rounded-full py-2 px-5 '>
+      <div className='block md:flex justify-between'>
+        <div className='flex-wrap gap-5 items-center bg-white bg-opacity-10 rounded-full pb-5'>
           {renderButtons()}
         </div>
         <div className='font-sans bg-[#b6bac033] h-10 p-2 rounded-md'>
@@ -103,14 +103,14 @@ const NFTCards: React.FC = () => {
           </select>
         </div>
       </div>
-      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 mt-8'>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 gap-y-5 md:gap-10 mt-8'>
         {filteredNfts.map((nft, index) => (
           <Card key={index} nft={nft} />
         ))}
       </div>
-      <div className='flex justify-center mt-20'>
+      <div className='flex justify-center mt-10'>
         <button
-          className='border-2 border-[#3D00B7] text-[#4F33A3] font-sans rounded-full py-3 px-5 mt-5 hover:bg-[#220970] hover:text-white'
+          className='border-2 border-[#3D00B7] text-[#4F33A3] font-sans rounded-full py-3 px-5 hover:bg-[#220970] hover:text-white'
           onClick={handleMoreNFTs}
         >
           More NFTs

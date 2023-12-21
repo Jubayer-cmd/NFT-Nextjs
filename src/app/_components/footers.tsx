@@ -6,7 +6,7 @@ export default function Footers() {
   return (
     <div className='mt-24'>
       <div className='grid grid-cols-6 gap-10 justify-betweeen'>
-        <div className='col-span-2'>
+        <div className='col-span-6 md:col-span-2'>
           <p className='font-mono font-bold text-2xl'>NFters</p>
           <p className='font-sans  text-base my-8 text-[#565656]'>
             The world’s first and largest digital marketplace for crypto
@@ -25,7 +25,7 @@ export default function Footers() {
             </button>
           </div>
         </div>
-        <div>
+        <div className='col-span-3 md:col-span-1'>
           <p className='font-sans font-semibold text-lg mb-4'>Market Place</p>
           <div className='flex flex-col items-start  gap-2 font-sans text-base text-[#3D3D3D] font-medium'>
             <button className='hover:text-blue-600'>All NFTs</button>
@@ -37,7 +37,7 @@ export default function Footers() {
             <button className='hover:text-blue-600'>Domain Name</button>
           </div>
         </div>
-        <div>
+        <div className='col-span-3 md:col-span-1'>
           <p className='font-sans font-semibold text-lg mb-4'>My Account</p>
           <div className='flex flex-col items-start gap-2 font-sans text-base text-[#3D3D3D] font-medium'>
             <button className='hover:text-blue-600'>Profile</button>
@@ -46,7 +46,7 @@ export default function Footers() {
             <button className='hover:text-blue-600'>Settings</button>
           </div>
         </div>
-        <div className='col-span-2'>
+        <div className='col-span-6 md:col-span-2'>
           <p className='font-sans font-semibold text-lg mb-4'>
             Stay in the loop
           </p>
@@ -65,15 +65,13 @@ export default function Footers() {
               type='email'
               placeholder='Enter your email address....'
             />
-            <button
-              className='absolute end-1 font-sans top-1/2 -translate-y-1/2 rounded-full bg-[#2639ED] px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700'
-            >
+            <button className='absolute end-1 font-sans top-1/2 -translate-y-1/2 rounded-full bg-[#2639ED] px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700'>
               Subscibe Now
             </button>
           </div>
         </div>
       </div>
-      <hr />
+      <hr className='mt-20' />
     </div>
   );
 }

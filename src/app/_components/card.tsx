@@ -4,10 +4,10 @@ import Image from 'next/image';
 import { FaEthereum } from 'react-icons/fa';
 
 export default function Card({ nft }: any) {
-  const { name, image, price } = nft;
+  const { name, price } = nft;
 
   return (
-    <div className='bg-white p-2 m-2 rounded-md'>
+    <div className='bg-white p-1 md:p-2 m-0 md:m-2 rounded-md'>
       <div className='relative'>
         <Image src={card} alt='card' className='rounded-md' />
         <div className='flex -space-x-1 overflow-hidden absolute -bottom-3 left-5'>
@@ -41,19 +41,19 @@ export default function Card({ nft }: any) {
           />
         </div>
       </div>
-      <p className='font-sans font-semibold text-xl mt-5'>{name}</p>
-      <div className='flex justify-between'>
-        <p className='font-sans text-sm font-semibold mt-2 mb-6 text-[#00AC4F]'>
-          <FaEthereum className='inline-block' /> {price} ETH
+      <p className='font-sans font-semibold text-base md:text-xl mt-5'>{name}</p>
+      <div className='flex items-center justify-between mt-2 mb-6'>
+        <p className='font-sans text-sm font-semibold text-[#00AC4F]'>
+          <FaEthereum className='inline-block h-4' /> {price} ETH
         </p>
         <p className='text-[#757575] text-sm font-sans'>1 of 129</p>
       </div>
       <hr />
       <div className='flex justify-between mt-3 items-center'>
-        <p className='text-[#5539A8] px-5 py-2 font-sans bg-[#F5F5F5] rounded-full text-xs'>
+        <p className='text-[#5539A8] px-2 py-1 md:px-5 md:py-2 font-sans bg-[#F5F5F5] rounded-full text-xs'>
           3h 50m 2s left
         </p>
-        <p className='text-[#4F33A3] font-sans font-bold text-sm'>
+        <p className='text-[#4F33A3] font-sans font-bold text-xs md:text-sm'>
           Place a bid
         </p>
       </div>
