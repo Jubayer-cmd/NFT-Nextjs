@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { FaEthereum } from 'react-icons/fa';
 import React from 'react';
 import img1 from './../../assets/unsplash_F56Y7dgrAkc.png';
 import img2 from './../../assets/unsplash_8uZPynIu-rQ.png';
@@ -31,7 +32,7 @@ export default function Collection() {
             <div>
               <p className='font-sans text-xs text-[#3A3A3A]'>Highest Bid</p>
               <p className='font-sans text-sm text-[#3A3A3A] font-semibold mt-1'>
-                0.25 ETH
+                <FaEthereum className='inline-block' /> 0.25 ETH
               </p>
             </div>
           </div>
@@ -52,7 +53,7 @@ export default function Collection() {
                 />
                 <div className='border border-[#00AC4F] rounded py-1 px-2 mx-2'>
                   <p className='text-[#00AC4F] font-sans font-semibold text-xs  '>
-                    0.25 ETH
+                    <FaEthereum className='inline-block' /> 0.25 ETH
                   </p>
                 </div>
                 <p className='text-[#757575] text-xs font-sans'>1 of 8</p>
@@ -76,7 +77,7 @@ export default function Collection() {
                 />
                 <div className='border border-[#00AC4F] rounded py-1 px-2 mx-2'>
                   <p className='text-[#00AC4F] font-sans font-semibold text-xs  '>
-                    0.25 ETH
+                    <FaEthereum className='inline-block' /> 0.25 ETH
                   </p>
                 </div>
                 <p className='text-[#757575] text-xs font-sans'>1 of 8</p>
@@ -100,7 +101,7 @@ export default function Collection() {
                 />
                 <div className='border border-[#00AC4F] rounded py-1 px-2 mx-2'>
                   <p className='text-[#00AC4F] font-sans font-semibold text-xs  '>
-                    0.25 ETH
+                    <FaEthereum className='inline-block' /> 0.25 ETH
                   </p>
                 </div>
                 <p className='text-[#757575] text-xs font-sans'>1 of 8</p>
@@ -126,7 +127,7 @@ export default function Collection() {
               <div className='col-span-2'>
                 <p className='font-sans font-bold text-base'>CryptoFunks</p>
                 <p className='font-sans font-semibold text-sm text-[#636363]'>
-                  19,769.39
+                <FaEthereum className='inline-block' />  19,769.39
                 </p>
               </div>
               <p className='font-sans font-bold text-lg text-[#14C8B0]'>
@@ -139,7 +140,7 @@ export default function Collection() {
               <div className='col-span-2'>
                 <p className='font-sans font-bold text-base'>Cryptix</p>
                 <p className='font-sans font-semibold text-sm text-[#636363]'>
-                  2,769.39
+                <FaEthereum className='inline-block' />    2,769.39
                 </p>
               </div>
               <p className='font-sans font-bold text-lg text-[#FF002E]'>
@@ -152,7 +153,7 @@ export default function Collection() {
               <div className='col-span-2'>
                 <p className='font-sans font-bold text-base'>Frensware</p>
                 <p className='font-sans font-semibold text-sm text-[#636363]'>
-                  9,232.39
+                <FaEthereum className='inline-block' />  9,232.39
                 </p>
               </div>
               <p className='font-sans font-bold text-lg text-[#14C8B0]'>
@@ -165,7 +166,7 @@ export default function Collection() {
               <div className='col-span-2'>
                 <p className='font-sans font-bold text-base'>PunkArt</p>
                 <p className='font-sans font-semibold text-sm text-[#636363]'>
-                  3,769.39
+                <FaEthereum className='inline-block' />   3,769.39
                 </p>
               </div>
               <p className='font-sans font-bold text-lg text-[#14C8B0]'>
@@ -178,7 +179,7 @@ export default function Collection() {
               <div className='col-span-2'>
                 <p className='font-sans font-bold text-base'>Art Crypto</p>
                 <p className='font-sans font-semibold text-sm text-[#636363]'>
-                  10,769.39
+                <FaEthereum className='inline-block' />   10,769.39
                 </p>
               </div>
               <p className='font-sans font-bold text-lg text-[#FF002E]'>

@@ -54,27 +54,23 @@ export default function Footers() {
             Join our mailing list to stay in the loop with our newest feature
             releases, NFT drops, and tips and tricks for navigating NFTs.
           </p>
-          <form className='mt-8'>
-            <div className='relative max-w-lg'>
-              <label className='sr-only' htmlFor='email'>
-                Email
-              </label>
 
-              <input
-                className='w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium'
-                id='email'
-                type='email'
-                placeholder='Enter your email address....'
-              />
-
-              <button
-                type='submit'
-                className='absolute end-1 font-sans top-1/2 -translate-y-1/2 rounded-full bg-[#2639ED] px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700'
-              >
-                Subscibe Now
-              </button>
-            </div>
-          </form>
+          <div className='relative max-w-lg mt-8'>
+            <label className='sr-only' htmlFor='email'>
+              Email
+            </label>
+            <input
+              className='w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium'
+              id='email'
+              type='email'
+              placeholder='Enter your email address....'
+            />
+            <button
+              className='absolute end-1 font-sans top-1/2 -translate-y-1/2 rounded-full bg-[#2639ED] px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700'
+            >
+              Subscibe Now
+            </button>
+          </div>
         </div>
       </div>
       <hr />
