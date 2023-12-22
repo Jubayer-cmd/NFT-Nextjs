@@ -19,9 +19,11 @@ export default function Section() {
           dictum sit tristique sed non. Lacinia lorem id consectetur pretium
           diam ut. Pellentesque eu sit blandit fringilla risus faucibus.
         </p>
-<div className='text-center md:text-left'>        <button className='bg-[#3D00B7] border-2 border-[#3D00B7]  px-6 py-3 rounded-full font-sans font-semibold text-xl md:text-2xl text-white hover:text-black hover:bg-white'>
-          Sign Up Now
-        </button></div>
+        <div className='text-center md:text-left'>
+          <button className='bg-[#3D00B7] border-2 border-[#3D00B7]  px-6 py-3 rounded-full font-sans font-semibold text-xl md:text-2xl text-white hover:text-black hover:bg-white'>
+            Sign Up Now
+          </button>
+        </div>
       </div>
     </div>
   );

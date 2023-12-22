@@ -19,7 +19,7 @@ export default function Herosection() {
             </p>
           </div>
           <div className='text-center md:text-left'>
-            <button className='text-xl mx- font-sans bg-[#3D00B7] px-5 py-3 rounded-full text-white'>
+            <button className='text-xl mx- font-sans border-[#3D00B7] bg-[#3D00B7] hover:text-black hover:bg-white px-5 py-3 rounded-full text-white'>
               Explore Now
             </button>
           </div>
