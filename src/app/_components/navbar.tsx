@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { SheetTrigger, SheetContent, Sheet } from '@/components/ui/sheet';
+import { JSX, SVGProps } from 'react';
 
 export default function Navbar() {
   return (
@@ -99,7 +100,7 @@ export default function Navbar() {
   );
 }
 
-function MenuIcon(props) {
+function MenuIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -120,7 +121,7 @@ function MenuIcon(props) {
   );
 }
 
-function SearchIcon(props) {
+function SearchIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
